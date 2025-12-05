@@ -1,11 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The official website for Morithiel MC Server</title>
-  </head>
-  <body>
-    <div>Hello World!</div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morithiel MC Server</title>
+  <style>
+    /* Reset some default styles */
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      height: 100%;
+      background-color: #1a1a1a; /* fallback if you add a background image */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Optional: background image styling */
+    body {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    header {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+    }
+
+    .welcome {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      max-width: 600px;
+      line-height: 1.5;
+    }
+
+    .server-card {
+      background: rgba(0,0,0,0.6);
+      padding: 1rem 2rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      text-align: center;
+      max-width: 300px;
+    }
+
+    .server-card h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.5rem;
+    }
+
+    .server-card p {
+      margin: 0.5rem 0;
+    }
+
+    a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+  <header>Morithiel Minecraft Server</header>
+  <div class="welcome">
+    Welcome to Morithiel! Here you'll find updates on the server, community notes, and links to join.
+  </div>
+
+  <div class="server-card">
+    <h2>Main Server</h2>
+    <p>IP: Private! <a href="https://discord.gg/X4kdUzPxVy">Join our Discord first!</a></p>
+    <p>Players: 1/20</p>
+    <p><a href="#">Server Dashboard</a></p>
+  </div>
+</body>
 </html>
